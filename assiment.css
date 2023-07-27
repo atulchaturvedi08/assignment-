@@ -1,0 +1,162 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+.wrapper{
+	width:100%;
+	height:auto;
+}
+
+.nav-bar{
+	width:100%;
+	height:60px;
+	background-color:lightgray;
+}
+
+.nav-bar ul{
+	margin-left:250px;
+}
+
+.nav-bar ul li{
+	display:inline;
+	margin-left:150px;
+	font-size:30px;
+}
+
+.nav-bar ul li a{
+	text-decoration:none;
+	color:black;
+	position:absolute;
+	margin-top:10px;
+	padding:6px;
+}
+
+.nav-bar ul li a:hover{
+	color:white;
+	background-color:blue;
+	border-radius:30px;
+}
+
+.contanier{
+	width:90%;
+	margin-left:5%;
+}
+.contanier h1{
+	text-align:center;
+	margin-top:30px;
+	font-size:40px;
+	color:blue;
+}
+
+.contanier p{
+	font-size:20px;
+	line-height:39px;
+	margin-top:20px;
+}
+.contanier1{
+	width:90%;
+	
+}
+.contanier1 h1{
+	text-align:center;
+	margin-top:20px;
+	color:blue;
+	font-size:48px;
+}
+
+.contanier1 p{
+	margin-left:200px;
+	margin-top:20px;
+	font-size:25PX;
+	line-height:40px;
+}
+
+.contanier1 p a{
+	color:blue;
+}
+
+
+@media (max-width: 310px) {
+  body {
+    /* CSS styles for the body element on smaller screens */
+    background-image:url(background.jpg);
+    font-size: 14px;
+	background-size:cover;
+	
+  }
+}
+
+@media (max-width: 600px) {
+  /* Styles for screens with a maximum width of 768px or less */
+
+  /* Adjust your page layout and styles for smaller screens */
+}
+
+@media (min-width: 300px) and (max-width: 1024px) {
+	.nav-bar{
+		width:100%;
+		height:80px;
+		background-color:gray;
+	}
+	
+	.nav-bar ul{
+		margin-left:0px;
+		margin-top:20px;
+	}
+	
+	.nav-bar ul li{
+		font-family:Bell MT;
+		margin-right:30px;
+	}
+	
+	.nav-bar ul li a{
+		color:black;
+		font-size:50px;
+	}
+	.contanier{
+		width:100%;
+		margin-left:3px;
+	}
+	
+	.contanier h1{
+		color:red;
+		font-size:70px;
+		margin-top:50px;
+		font-family:Bell MT;
+	}
+	
+	.contanier p{
+		font-size:40px;
+		line-height:65px;
+	}
+	
+	.contanier1 h1{
+		text-align:center;
+		font-size:70px;
+		margin-left:240px;
+		color:red;
+	}
+	
+	.contanier1 p{
+		font-size:40px;
+		line-height:60px;
+		font-family:Bell MT;
+	}
+	
+	.contanier1 p a{
+		text-decoration:none;
+	}
+	
+	 /* Styles for screens with a width between 769px and 1024px */
+
+  /* Adjust your page layout and styles for medium-sized screens */
+}
+
+
+@media (min-width: 1025px) {
+  /* Styles for screens with a minimum width of 1025px */
+
+  /* Adjust your page layout and styles for larger screens */
+}
+	
